@@ -1,0 +1,12 @@
+QUEST DESIGN DOC:
+
+Health containers/lives
+
+Character selection
+	- animate when hovered
+
+Reassign sprites based off character selected
+
+Reset Game function
+
+Pause menu
