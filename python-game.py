@@ -76,26 +76,26 @@ pygame.image.load("sprites/swampy_run_anim_f2.png"),
 pygame.image.load("sprites/swampy_run_anim_f3.png")]
 
 # player sprites #
-p_sprite_idle = [pygame.image.load("sprites/knight_m_idle_anim_f0.png"), 
-pygame.image.load("sprites/knight_m_idle_anim_f1.png"), 
-pygame.image.load("sprites/knight_m_idle_anim_f2.png"), 
-pygame.image.load("sprites/knight_m_idle_anim_f3.png")]
-p_sprite_down = [pygame.image.load("sprites/knight_m_run_anim_f0.png"), 
-pygame.image.load("sprites/knight_m_run_anim_f1.png"), 
-pygame.image.load("sprites/knight_m_run_anim_f2.png"), 
-pygame.image.load("sprites/knight_m_run_anim_f3.png")]
-p_sprite_up = [pygame.image.load("sprites/knight_m_up_anim_f0.png"), 
-pygame.image.load("sprites/knight_m_up_anim_f1.png"), 
-pygame.image.load("sprites/knight_m_up_anim_f2.png"), 
-pygame.image.load("sprites/knight_m_up_anim_f3.png")]
-p_sprite_left = [pygame.image.load("sprites/knight_m_left_anim_f0.png"), 
-pygame.image.load("sprites/knight_m_left_anim_f1.png"), 
-pygame.image.load("sprites/knight_m_left_anim_f2.png"), 
-pygame.image.load("sprites/knight_m_left_anim_f3.png")]
-p_sprite_right = [pygame.image.load("sprites/knight_m_idle_anim_f0.png"), 
-pygame.image.load("sprites/knight_m_run_anim_f1.png"), 
-pygame.image.load("sprites/knight_m_run_anim_f2.png"), 
-pygame.image.load("sprites/knight_m_run_anim_f3.png")]
+p_sprite_idle = [pygame.image.load("sprites/my-hero/pixil-lumin-run.png"), 
+pygame.image.load("sprites/my-hero/pixil-lumin-run-4.png"), 
+pygame.image.load("sprites/my-hero/pixil-lumin-run-5.png"), 
+pygame.image.load("sprites/my-hero/pixil-lumin-run-6.png")]
+p_sprite_down = [pygame.image.load("sprites/my-hero/pixil-lumin-run.png"), 
+pygame.image.load("sprites/my-hero/pixil-lumin-run-4.png"), 
+pygame.image.load("sprites/my-hero/pixil-lumin-run-5.png"), 
+pygame.image.load("sprites/my-hero/pixil-lumin-run-6.png")]
+p_sprite_up = [pygame.image.load("sprites/my-hero/pixil-lumin-run.png"), 
+pygame.image.load("sprites/my-hero/pixil-lumin-run-4.png"), 
+pygame.image.load("sprites/my-hero/pixil-lumin-run-5.png"), 
+pygame.image.load("sprites/my-hero/pixil-lumin-run-6.png")]
+p_sprite_left = [pygame.image.load("sprites/my-hero/pixil-lumin-run.png"), 
+pygame.image.load("sprites/my-hero/pixil-lumin-run-4.png"), 
+pygame.image.load("sprites/my-hero/pixil-lumin-run-5.png"), 
+pygame.image.load("sprites/my-hero/pixil-lumin-run-6.png")]
+p_sprite_right = [pygame.image.load("sprites/my-hero/pixil-lumin-run.png"), 
+pygame.image.load("sprites/my-hero/pixil-lumin-run-4.png"), 
+pygame.image.load("sprites/my-hero/pixil-lumin-run-5.png"), 
+pygame.image.load("sprites/my-hero/pixil-lumin-run-6.png")]
 p_weapon = pygame.image.load("sprites/weapon_rusty_sword.png")
 p_heart = pygame.image.load("sprites/heart.png")
 
@@ -200,26 +200,26 @@ win_screen = pygame.image.load("sprites/win_bg.png")
 def assign_p_sprite(selection):
 	global p_sprite_idle, p_sprite_right, p_sprite_left, p_sprite_down, p_sprite_up
 	if selection == 0: #knight
-		p_sprite_idle = [pygame.image.load("sprites/knight_m_idle_anim_f0.png"), 
-		pygame.image.load("sprites/knight_m_idle_anim_f1.png"), 
-		pygame.image.load("sprites/knight_m_idle_anim_f2.png"), 
-		pygame.image.load("sprites/knight_m_idle_anim_f3.png")]
-		p_sprite_down = [pygame.image.load("sprites/knight_m_run_anim_f0.png"), 
-		pygame.image.load("sprites/knight_m_run_anim_f1.png"), 
-		pygame.image.load("sprites/knight_m_run_anim_f2.png"), 
-		pygame.image.load("sprites/knight_m_run_anim_f3.png")]
-		p_sprite_up = [pygame.image.load("sprites/knight_m_up_anim_f0.png"), 
-		pygame.image.load("sprites/knight_m_up_anim_f1.png"), 
-		pygame.image.load("sprites/knight_m_up_anim_f2.png"), 
-		pygame.image.load("sprites/knight_m_up_anim_f3.png")]
-		p_sprite_left = [pygame.image.load("sprites/knight_m_left_anim_f0.png"), 
-		pygame.image.load("sprites/knight_m_left_anim_f1.png"), 
-		pygame.image.load("sprites/knight_m_left_anim_f2.png"), 
-		pygame.image.load("sprites/knight_m_left_anim_f3.png")]
-		p_sprite_right = [pygame.image.load("sprites/knight_m_run_anim_f0.png"), 
-		pygame.image.load("sprites/knight_m_run_anim_f1.png"), 
-		pygame.image.load("sprites/knight_m_run_anim_f2.png"), 
-		pygame.image.load("sprites/knight_m_run_anim_f3.png")]
+		p_sprite_idle = [pygame.image.load("sprites/my-hero/pixil-lumin2.png"), 
+		pygame.image.load("sprites/my-hero/pixil-lumin2.png"), 
+		pygame.image.load("sprites/my-hero/pixil-lumin2.png"), 
+		pygame.image.load("sprites/my-hero/pixil-lumin2.png")]
+		p_sprite_down = [pygame.image.load("sprites/my-hero/pixil-lumin-run.png"), 
+		pygame.image.load("sprites/my-hero/pixil-lumin-run-4.png"), 
+		pygame.image.load("sprites/my-hero/pixil-lumin-run-5.png"), 
+		pygame.image.load("sprites/my-hero/pixil-lumin-run-6.png")]
+		p_sprite_up = [pygame.image.load("sprites/my-hero/pixil-lumin-run.png"), 
+		pygame.image.load("sprites/my-hero/pixil-lumin-run-4.png"), 
+		pygame.image.load("sprites/my-hero/pixil-lumin-run-5.png"), 
+		pygame.image.load("sprites/my-hero/pixil-lumin-run-6.png")]
+		p_sprite_left = [pygame.image.load("sprites/my-hero/pixil-lumin-run.png"), 
+		pygame.image.load("sprites/my-hero/pixil-lumin-run-4.png"), 
+		pygame.image.load("sprites/my-hero/pixil-lumin-run-5.png"), 
+		pygame.image.load("sprites/my-hero/pixil-lumin-run-6.png")]
+		p_sprite_right = [pygame.image.load("sprites/my-hero/pixil-lumin-run.png"), 
+		pygame.image.load("sprites/my-hero/pixil-lumin-run-4.png"), 
+		pygame.image.load("sprites/my-hero/pixil-lumin-run-5.png"), 
+		pygame.image.load("sprites/my-hero/pixil-lumin-run-6.png")]
 	if selection == 1: #wizzard
 		p_sprite_idle = [pygame.image.load("sprites/wizzard_m_idle_anim_f0.png"), 
 		pygame.image.load("sprites/wizzard_m_idle_anim_f1.png"), 
